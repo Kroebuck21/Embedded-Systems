@@ -22,9 +22,7 @@ int main()
     wait_us(1000 * WAIT_TIME_MS);
 
     //Turn off all the LEDs
-    ledRed = 0;
-    ledGreen = 0;
-    ledBlue = 0;
+    
 
     // Write to LCD using the LCD_16X2_DISPLAY driver class
     lcd.printf("Hello World");
